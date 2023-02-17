@@ -8,9 +8,12 @@ public class Run {
 	public static void main(String[] args) {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("bean/cheatsheet/config.xml");
-		Bean bean = context.getBean("bean", Bean.class);
-		System.out.println(bean);
+//		Bean bean = context.getBean("bean", Bean.class);
+//		System.out.println(bean);
 		
+		
+		Score sin = context.getBean("sin", Score.class);
+		System.out.println(sin);
 
 	}
 

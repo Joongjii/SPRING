@@ -14,8 +14,8 @@ public class Run {
 				new ClassPathXmlApplicationContext("bean/config.xml");
 		
 		//config.xml에 id 속성으로 bean을 받아올 수 있다.
-		User anony = (User) context.getBean("anonymous");
-		System.out.println(anony);
+//		User anony = (User) context.getBean("anonymous");
+//		System.out.println(anony);
 		
 		Book happy = (Book) context.getBean("happyman");
 		System.out.println(happy);

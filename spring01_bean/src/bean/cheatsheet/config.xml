@@ -4,7 +4,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	<bean id="dateBean" class="java.util.Date"></bean>
+	
 	<bean id="codeBean" class="bean.cheatsheet.Code"></bean>
+	
 	<bean id="sin" class="bean.cheatsheet.Score">
 		<constructor-arg name="name" value="신사임당"/>
 		<constructor-arg name="kor" value="110"/>
@@ -56,6 +58,7 @@
 				<prop key="구름">cloud</prop>
 			</props>
 		</property>		
+		
 		<property name="scores">
 			<list>
 				<bean class="bean.cheatsheet.Score">

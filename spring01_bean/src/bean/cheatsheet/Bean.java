@@ -13,7 +13,7 @@ public class Bean {
 	private Date date;
 	
 	public Bean() {
-		System.out.println("Bean 기본 생성자");
+		//System.out.println("Bean 기본 생성자");
 	}
 
 	public Bean(Date date) {
